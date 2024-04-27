@@ -1,45 +1,49 @@
-story>horatian|pindaric|horatian|pindaric
+story>horatian|horatian|horatian|horatian|pindaric|pindaric|pindaric|pindaric|irregular
 
 
 
 HORATIAN
 
-horatian>IN +stanzas+ STANZAS, EACH OF +lines+ LINES, +horatian_tone+, DESCRIBE +hero+, +gradient+. +extra+. 
-
-horatian_tone>WITH SADNESS
-
-gradient>PROGRESSING GENTLY FROM+ +concept_statement+.
-
+horatian>IN +stanzas+ STANZAS, EACH OF +lines+ LINES, DESCRIBE +hero+, +gradient+.|IN +stanzas+ STANZAS, EACH OF +lines+ LINES, DESCRIBE +hero+, +gradient+. +extra+.
+gradient>PROGRESSING GENTLY FROM+ +concept_statement
 concept_statement>concept+ TO +concept
-
 concept>THE +cognizing+ OF THE +abstraction+ OF +object
-
 abstraction>PAIN|SADNESS
-
 cognizing>AWARENESS|FORGIVENESS|HATRED|NON-AWARENESS|DISTANT APPRECIATION|ACCEPTANCE|PERCEPTION|REGRETTING
-
 object>hero|hero|hero|hero|LIFE IN GENERAL|villain
-
-extra>REMARK IN THE 3rd TO LAST LINE UPON THE HAIR OF +hero+
-
 stanzas>2|4|6
-
 lines>2|4
-
-
+extra>REMARK IN THE +count_line+ LINE UPON +extra_object
+extra_object>THE +h_feature+ OF +hero|WINE|WINE
+h_feature>eyes
+count_line>1ST|rel_num|rel_num+ TO LAST
+rel_num>2ND|3RD|4TH
 
 
 
 PINDARIC
 
 pindaric>᛫ +strophe+ ᛬ +antistrophe+ ⁖ +epode
+strophe>IN A STANZA OF +p_lines+ +short_or_long+ +meter1+ LINES, ADOPTING A +style1+ STYLE, DESCRIBE +hero+, WITH PARTICULAR ATTENTION TO THE +feature+ OF +hero+.
+meter1>IAMBIC|DACTYLLIC|DACTYLLIƒC|AEOLIC|LOGAOEDIC
+meter2>meter_adjust+ +meter1|PYRRHIC
+meter_adjust>NOT|ANYTHING BUT|ONLY IMPERFECTLY
+p_lines>6|8|8|10|12
+short_or_long>BRIEF|BRIEF|BRIEF|LENGTHY|LENGTHY|LENGTHY|ABSURDLY LONG
+feature>EYES
+style1>FEARSOME
+style2>COMEDIC|MENTIONING +p_trait
+p_trait>THE STATE|A GOD|A WAR
+antistrophe>USING THE SAME STRUCTURE BUT NOW +style2+, CONTRAPOSE +hero+ WITH ITS INVERSE AND ENEMY, +villain+.
+epode>NOW, WITH +subtract+ FEWER LINES, AND THESE +ep_style+, IMAGINE HOW +hero+ SHALL +do_to_villain+ +villain+.
+ep_style>meter2|style1|style2|short_or_long|short_or_long+ AND +meter2|style1+ AND +style2|style2+ AND +meter2
+subtract>2|2|2|3|3|3|4|4|5
+do_to_villain>OVERCOME|OVERCOME|OVERCOME|ABSORB|DEMOTE|CENSURE|STEAL FROM|WED|WOUND|BECOME
 
-strophe>In a stanza of eight lines, rhyming, iambic, describe +hero+.
+IRREGULAR
 
-antistrophe>Using the same structure, contrapose +hero+ with its inverse and enemy, +villain+.
-
-epode>Now, with two fewer lines, and these trochaic, imagine how +hero+ shall overcome +villain+.
-
+irregular>[STANZA 1: +ir+] [[STANZA 2: +ir+.]] [[[STANZA 3: +ir+]]]
+ir>meter1|meter2|short_or_long|style1|style1|strophe|epode|gradient|gradient|extra|cognizing
 
 
 adj>VINTAGE|COMMON|CIVIC|BROKEN
