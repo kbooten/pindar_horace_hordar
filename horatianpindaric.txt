@@ -1,0 +1,46 @@
+story>horatian|pindaric|horatian|pindaric
+
+
+
+HORATIAN
+
+horatian>IN +stanzas+ STANZAS, EACH OF +lines+ LINES, +horatian_tone+, DESCRIBE +hero+, +gradient+. +extra+. 
+
+horatian_tone>WITH SADNESS
+
+gradient>PROGRESSING GENTLY FROM+ +concept_statement+.
+
+concept_statement>concept+ TO +concept
+
+concept>THE +cognizing+ OF THE +abstraction+ OF +object
+
+abstraction>PAIN|SADNESS
+
+cognizing>AWARENESS|FORGIVENESS|HATRED|NON-AWARENESS|DISTANT APPRECIATION|ACCEPTANCE|PERCEPTION|REGRETTING
+
+object>hero|hero|hero|hero|LIFE IN GENERAL|villain
+
+extra>REMARK IN THE 3rd TO LAST LINE UPON THE HAIR OF +hero+
+
+stanzas>2|4|6
+
+lines>2|4
+
+
+
+
+
+PINDARIC
+
+pindaric>᛫ +strophe+ ᛬ +antistrophe+ ⁖ +epode
+
+strophe>In a stanza of eight lines, rhyming, iambic, describe +hero+.
+
+antistrophe>Using the same structure, contrapose +hero+ with its inverse and enemy, +villain+.
+
+epode>Now, with two fewer lines, and these trochaic, imagine how +hero+ shall overcome +villain+.
+
+
+
+adj>VINTAGE|COMMON|CIVIC|BROKEN
+entity>URN|FRIEND|DOVE|WEED
