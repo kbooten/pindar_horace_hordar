@@ -1,25 +1,27 @@
-Pindar + Horace (An Ode-Gym)
+Pindar Horace Hordar 
+(An Ode-Gym)
 Kyle Booten
 
 
 story>HOW TO WRITE AN ODE: +ode_type
-ode_type>horatian|horatian|horatian|horatian|pindaric|pindaric|pindaric|pindaric|blended
+ode_type>pindaric|pindaric|pindaric|pindaric|horatian|horatian|horatian|horatian|blended
+
 
 
 PINDARIC
 
 pindaric>᛫ +strophe+ ᛬ +antistrophe+ ⁖ +epode
-strophe>IN A STANZA OF +p_lines+ +short_or_long+ +meter1+ LINES, ADOPTING A +style1+ QUALITY, DESCRIBE +hero+, WITH PARTICULAR ATTENTION TO THE +p_feature+ OF +hero+.
-meter1>DACTYLLIC|DACTYLLIC|AEOLIC|LOGAOEDIC
+strophe>IN A STANZA OF +p_lines+ +short_or_long+ +meter1+ LINES, ADOPTING A +style1+ TENOR, DESCRIBE +hero+, WITH PARTICULAR ATTENTION TO THE +p_feature+ OF +hero+.
+meter1>DACTYLLIC|DACTYLLIC|DACTYLLIC|AEOLIC|LOGAOEDIC
 meter2>meter_adjust+ +meter1|TROCHAIC|IAMBIC
 meter_adjust>NOT|ANYTHING BUT|ONLY IMPERFECTLY
 p_lines>6|8|8|10|12
 short_or_long>BRIEF|BRIEF|BRIEF|LENGTHY|LENGTHY|LENGTHY|ABSURDLY LONG
 p_feature>LAUREL|ORDER|VIRTUE|LAW|DECREE|STRENGTH|CRIME|FATE
-style1>SOLEMN|MYSTICAL|GNOMIC|JAGGED|SUBLIME|MORALISTIC|GOVERNMENTAL|MUSCULAR|LAUDATORY|REVERENT
+style1>SOLEMN|MYSTICAL|GNOMIC|JAGGED|SUBLIME|MORALISTIC|GOVERNMENTAL|MUSCULAR|LAUDATORY|REVERENT|JUBILANT
 antistrophe>USING THE SAME STANZAIC STRUCTURE BUT NOW +style_or_mentioning+, CONTRAPOSE +hero+ WITH ITS INVERSE AND ENEMY, +villain+.
 style_or_mentioning>style2|MENTIONING +p_trait
-style2>ZANY|PIXELATED|EUPHORIC|REVERENT|BLOODTHIRSTY|STERN|RECURSIVE|VITUPERATIVE
+style2>ZANY|PIXELATED|EUPHORIC|REVERENT|BLOODTHIRSTY|STERN|RECURSIVE|VITUPERATIVE|BRUTALIST|PARANOID|ANGUISHED
 p_trait>THE STATE|A GOD|A WAR|A SPORT|A MORAL|A VIRTUE|A CONQUEST|A VICTORY|A NATURAL DISASTER
 epode>NOW, WITH +subtract+ FEWER LINES, AND THESE +ep_style+, IMAGINE HOW +hero+ SHALL +do_to_villain+ +villain+.
 ep_style>meter2|style1|style2|short_or_long|short_or_long+ AND +meter2|style1+ AND +style2|style2+ AND +meter2
@@ -34,10 +36,10 @@ gradient>PROGRESSING GENTLY FROM+ +concept_statement|PROGRESSING GENTLY FROM+ +c
 concept_statement>concept+ TO +concept2
 concept>THE +cognizing+ OF THE +abstraction+ OF +object|THE +cognizing2+ OF THE +abstraction2+ OF +object
 concept2>THE +cognizing2+ OF THE +abstraction+ OF +object|THE +cognizing+ OF THE +abstraction2+ OF +object2
-concept_statement2>GREEN TO BLUE|WEALTH TO POVERTY|MORNING TO NIGHT|RAIN TO SLEEP|YOUTH TO OLD AGE
+concept_statement2>GREEN TO BLUE|BLUE TO GREEN|WEALTH TO POVERTY|MORNING TO NIGHT|RAIN TO SLEEP|YOUTH TO OLD AGE|FALL TO SPRING|WINTER TO SUMMER
 abstraction>PAIN|SADNESS|LOSS|HUMOR|FRAILTY|YEARNING
 abstraction2>LOSS|GROWTH|MERCY|HISTORY|TIMELESSNESS|MORTALITY
-cognizing>AWARENESS|FORGIVENESS|HATRED|NON-AWARENESS|DISTANT APPRECIATION|MISUNDERSTANDING
+cognizing>AWARENESS|FORGIVENESS|HATRED|NON-AWARENESS|APPRECIATION|MISUNDERSTANDING|SYMPATHY
 cognizing2>ACCEPTANCE|PERCEPTION|REGRETTING|UNDERSTANDING
 object>hero|hero|hero|hero|LIFE IN GENERAL
 object2>hero|hero|hero|hero|villain|LIFE IN GENERAL
@@ -52,9 +54,9 @@ rel_num>2ND|3RD|4TH
 
 BLENDED
 
-blended>[STANZA 1: +ir+] [STANZA 2: +ir+] [STANZA 3: +ir+]
-ir>meter1|meter2|short_or_long|style1|style1|style_or_mentioning|strophe|ep_style|gradient|gradient|extra||extra_object|cognizing|cognizing2|concept_statement|concept|concept2|concept_statement2
+blended>[STANZA 1: +blend_bit+] [STANZA 2: +blend_bit+] [STANZA 3: +blend_bit+]
+blend_bit>meter1|meter2|short_or_long|style1|style1|style_or_mentioning|strophe|ep_style|gradient|gradient|extra||extra_object|cognizing|cognizing2|concept_statement|concept|concept2|concept_statement2
 
 
 adj>VINTAGE|COMMON|CIVIC|BROKEN|HONEYED|PAINTED|SACRED|HUNGRY|VERNAL|FLEETING
-entity>VASE|FRIEND|DOVE|DEER|FRUIT|LAKE|HOUSE|GAME|TUNE|STORM|GLEN|KNOT|VEIL|FARM
+entity>VASE|FRIEND|DOVE|DEER|FRUIT|LAKE|HOUSE|GAME|TUNE|STORM|GLEN|KNOT|VEIL|WRIT
