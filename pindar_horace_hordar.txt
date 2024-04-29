@@ -31,7 +31,7 @@ do_to_villain>OVERCOME|OVERCOME|OVERCOME|REFORM|BANISH|DEMOTE|CENSURE|STEAL FROM
 
 HORATIAN
 
-horatian>IN +stanzas+ STANZAS, EACH OF +h_lines+ LINES, DESCRIBE +hero+, +gradient+.|IN +stanzas+ STANZAS, EACH OF +h_lines+ LINES, DESCRIBE +hero+, +gradient+. +extra+.
+horatian>IN +stanzas+ STANZAS, EACH OF 4 LINES, DESCRIBE +hero+, +gradient+.|IN +stanzas+ STANZAS, EACH OF 4 LINES, DESCRIBE +hero+, +gradient+. +extra+.
 gradient>PROGRESSING GENTLY FROM+ +concept_statement|PROGRESSING GENTLY FROM+ +concept_statement+ AND SIMULTANEOUSLY FROM +concept_statement2
 concept_statement>concept+ TO +concept2
 concept>THE +cognizing+ OF THE +abstraction+ OF +object|THE +cognizing2+ OF THE +abstraction2+ OF +object
@@ -43,14 +43,12 @@ cognizing>AWARENESS|FORGIVENESS|HATRED|NON-AWARENESS|APPRECIATION|MISUNDERSTANDI
 cognizing2>ACCEPTANCE|PERCEPTION|REGRETTING|UNDERSTANDING
 object>hero|hero|hero|hero|LIFE IN GENERAL
 object2>hero|hero|hero|hero|villain|LIFE IN GENERAL
-stanzas>2|4|6
-h_lines>2|4
+stanzas>3|4|4|6|6|8|10
 extra>REMARK IN THE +count_line+ LINE UPON +extra_object|prosody
 extra_object>THE +h_feature+ OF +hero|WINE|WINE|WINE|A MORSEL|A MORSEL|A FRIEND
-h_feature>FLAVOR|SIZE|TEXTURE|FAMILY|WIFE|POSITION|TEMPERATURE|ECHO|HEARTH|FORM|SHAPE|HUE
+h_feature>FLAVOR|SIZE|TEXTURE|FAMILY|POSITION|TEMPERATURE|ECHO|INTERIOR|FORM|TEMPERAMENT|HONOR|HUE
 count_line>1ST|rel_num|rel_num+ TO LAST
-prosody>RHYME +when_rhyme+ AND ADOPT +poet+'S METER
-when_rhyme>IN COUPLETS|SPORADICALLY
+prosody>MIMIC +poet+'S METER
 poet>SAPHO|ALCAEUS
 rel_num>2ND|3RD|4TH
 
