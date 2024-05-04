@@ -10,7 +10,7 @@ ode_type>pindaric|pindaric|pindaric|pindaric|horatian|horatian|horatian|horatian
 
 PINDARIC
 
-pindaric> →+strophe+ ←+antistrophe+ ⬣+epode
+pindaric> (TURN) +strophe+ (COUNTERTURN) +antistrophe+ (STAND) +epode
 strophe>IN A STANZA OF +p_lines+ +short_or_long+ +meter1+ LINES, ADOPTING A +style1+ TENOR, DESCRIBE +hero+, WITH PARTICULAR ATTENTION TO THE +p_feature+ OF +hero+.
 meter1>DACTYLLIC|DACTYLLIC|DACTYLLIC|QUASI-AEOLIC|LOGAOEDIC
 meter2>meter_adjust+ +meter1|TROCHAIC|IAMBIC
